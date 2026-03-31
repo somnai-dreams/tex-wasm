@@ -1,7 +1,1 @@
-bakoma.zip
-core.dump.gz
-tex.wasm.gz
-dist
-node_modules
-.vim
-misc
+node_modules/
