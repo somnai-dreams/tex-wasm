@@ -6,7 +6,8 @@ TeX compiled to WebAssembly. Forked from [@drgrice1/tikzjax](https://github.com/
 
 - `dist/tex.wasm.gz` — TeX engine (e-TeX) compiled to WASM via emscripten
 - `dist/core.dump.gz` — Pre-loaded LaTeX format (article class, amsmath, etc.)
-- `dist/fonts/` — Computer Modern woff2 fonts (152 fonts)
+- `dist/fonts/` — Computer Modern webfonts (152 fonts), rebuilt from the
+  canonical CTAN BaKoMa archive via `../scripts/rebuild-cm-font-library.py`
 - `dist/tex_files/` — TeX support files (.sty, .def, .cfg — gzipped)
 - `dist/tfm/` — TFM font metric data (character widths, heights, depths)
 
